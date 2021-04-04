@@ -1,0 +1,99 @@
+*{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: rgb(53, 66, 74);
+    border-bottom: 0.2rem solid rgb(169, 80, 139);
+}
+h1{
+    font-size: 2rem;
+    color: white;
+}
+h1 span{
+    font-size: 2rem;
+    color: rgb(169, 80, 139);
+}
+li{
+    display: inline;
+    padding: 0.5rem;
+}
+li a{
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+}
+li a:hover{
+    color: rgb(169, 80, 139);
+}
+#home{
+    color: rgb(169, 80, 139);
+}
+section{
+    background-image: url(/img/showcase.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section p{
+    position: absolute;
+    color: white;
+    font-size: 1rem;
+}
+section h2{
+    font-size: 3rem;
+    position: absolute;
+    top: 20%;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(53, 66, 74);
+    padding: 1rem 0;
+    color: white;
+}
+nav p{
+    padding: 1%;
+    font-size: 1.5rem;
+}
+nav div{
+    padding: 1%
+}
+#button{
+    background-color: rgb(245, 63, 18);
+    color: white;
+    padding: 5px;
+    
+}
+#button:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px;
+}
+input{
+    padding: 5px;
+}
+#content{
+    display: flex;
+    justify-content: space-evenly;
+}
+#content img{
+    width: 5rem;
+}
+#html, #css, #design{
+    text-align: center;
+    margin: 0.5rem;
+    margin-top: 1.5rem;
+
+}
