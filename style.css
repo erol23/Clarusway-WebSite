@@ -3,7 +3,6 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 header{
@@ -49,8 +48,6 @@ section{
 }
 section div {
     text-align: center;
-    align-items: center;
-    margin-top: 24px;
 }
 section p{
     color: white;
@@ -74,7 +71,8 @@ nav p{
     font-size: 1.5rem;
 }
 nav div{
-    padding: 1%
+    padding: 1%;
+    margin-top: 24px;
 }
 #button{
     background-color: rgb(245, 63, 18);
@@ -91,7 +89,6 @@ input{
 }
 #content{
     display: flex;
-    /* flex-grow: 5; */
     justify-content: space-evenly;
 }
 #content img{
@@ -110,14 +107,10 @@ footer{
     padding: 1%;
     width: 98%;
     margin-top: 1.5rem;
-    margin-bottom: 0%;
+    margin-bottom: 0;
     bottom: 0%;
-    display: flex;
-    justify-content: center;
-    align-self: baseline;
 }
 footer img{
     margin-top: 0.3rem;
     width: 13rem;
 }
-
